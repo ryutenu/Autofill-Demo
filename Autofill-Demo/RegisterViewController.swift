@@ -20,5 +20,8 @@ class RegisterViewController: UIViewController {
         email.keyboardType = .emailAddress
         
         password.textContentType = .password
+//        password.borderStyle = .none
+//        password.textColor = .clear
+//        password.isUserInteractionEnabled = false
     }
 }

@@ -16,12 +16,13 @@ class RegisterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        email.accessibilityLabel = "Registration"
         email.textContentType = .emailAddress
         email.keyboardType = .emailAddress
         
         password.textContentType = .password
-//        password.borderStyle = .none
-//        password.textColor = .clear
-//        password.isUserInteractionEnabled = false
+        password.borderStyle = .none
+        password.textColor = .clear
+        password.isUserInteractionEnabled = false
     }
 }
